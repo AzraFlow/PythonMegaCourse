@@ -1,0 +1,22 @@
+list built in functions: dir(__builtins__)
+
+help with __builtins__: help(__builtins__)
+
+list all methods within function: dir([function])
+
+help with function: help([function])
+
+help on function methods: help([function].[method])
+
+load additional functions: import sys
+
+list modules in sys: sys.builtin_module_names
+
+import module: import[module name]
+
+list methods in module: dir([module])
+
+find python install directory: import sys then sys.prefix
+
+see options in modules: dir([module])
+
