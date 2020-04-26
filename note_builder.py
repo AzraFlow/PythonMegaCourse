@@ -12,7 +12,7 @@ notes = {'list built in functions': 'dir(__builtins__)',
          'list modules in sys': 'sys.builtin_module_names',
          'import module': 'import[module name]',
          'list methods in module': 'dir([module])',
-         'find python install directory': 'import sys then sys.prefix',
+         'find python install directory': 'import sys -then- sys.prefix',
          'list objects in modules': 'dir([module])',
          'help for methods in module objects': 'help([module].[object].[method])',
          }
