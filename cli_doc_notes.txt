@@ -16,7 +16,7 @@ import module: import[module name]
 
 list methods in module: dir([module])
 
-find python install directory: import sys then sys.prefix
+find python install directory: import sys -then- sys.prefix
 
 list objects in modules: dir([module])
 
