@@ -14,7 +14,7 @@ notes = {'list built in functions': 'dir(__builtins__)',
          'list methods in module': 'dir([module])',
          'find python install directory': 'import sys -then- sys.prefix',
          'list objects in modules': 'dir([module])',
-         'help for methods in module objects': 'help([module].[object].[method])',
+         'help for methods in modules': 'help([module].[object].[method])',
          }
 
 # Opens a file in 'w' (truncate then write) mode using the with context manager
