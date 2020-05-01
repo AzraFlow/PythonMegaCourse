@@ -18,21 +18,30 @@ def color_set(elevation):
         return 'red'
 
 
-html = """<h4>Volcano information:</h4>
+html = """<h4>Volcano information:</
 Height: %s m
 """
 
-map = folium.Map(location=[38.58, -99.09], zoom_start=6,
-                 tiles="Stamen Terrain")
+map = folium.Map(
+      location=[38.58, -99.09],
+      zoom_start=6,
+      tiles="Stamen Terrain"
+)
 
 fgv = folium.FeatureGroup(name="Volcanoes")
 
 for lt, ln, el in zip(lat, lon, elev):
 
     iframe = folium.IFrame(html=html % str(el), width=200, height=100)
-    fgv.add_child(folium.CircleMarker(location=[lt, ln], radius=6,
-                  popup=folium.Popup(iframe), fill_color=color_set(el),
-                  color='grey', fill_opacity=0.7))
+
+    fgv.add_child(folium.CircleMarker(
+                         location=[lt, ln],
+                         radius=6,
+                         popup=folium.Popup(iframe),
+                         fill_color=color_set(el),
+                         color='grey',
+                         fill_opacity=0.7
+                         ))
 
 fgp = folium.FeatureGroup(name="Population")
 
