@@ -1,0 +1,7 @@
+Files for this section are located in:
+~/Desktop/azraflow/AzraProfileSite
+
+Git repo for that directory gets pushed to Heroku:
+git push heroku master
+
+No Github repo established yet.
