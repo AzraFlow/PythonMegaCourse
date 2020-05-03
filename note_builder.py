@@ -18,7 +18,7 @@ notes = {'list built in functions': 'dir(__builtins__)',
          'create virtual environment': 'in project dir -> python -m venv [venv name]',
          'interactive shell n venv': '[venv name]/Scripts/python',
          'activate venv': 'cd to Scripts in venv then -> . activate',
-         'deactivate venv': 'type -> deactivate'
+         'deactivate venv': 'type -> deactivate',
          'check path to python': 'where python',
          'see installed packages': 'pip list or pip freeze for requirements.txt format',
          'delete venv': 'delete venv directory or rmdir [venv name] /s',
@@ -32,4 +32,4 @@ notes = {'list built in functions': 'dir(__builtins__)',
 # Opens a file in 'w' (truncate then write) mode using the with context manager
 with open('cli_doc_notes.txt', 'w') as cli_file:
     for key, value in notes.items():
-        cli_file.write(key + ': ' + value + '\n\n')
+        cli_file.write(key + ': ' + value + '\n')
