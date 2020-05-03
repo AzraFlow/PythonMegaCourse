@@ -15,6 +15,14 @@ notes = {'list built in functions': 'dir(__builtins__)',
          'find python install directory': 'import sys -then- sys.prefix',
          'list objects in modules': 'dir([module])',
          'help for methods in modules': 'help([module].[object].[method])',
+         'create virtual environment': 'in project dir -> python -m venv [venv name]',
+         'interactive shell n venv': '[venv name]/Scripts/python',
+         'activate venv': 'cd to Scripts in venv then -> . activate',
+         'deactivate venv': 'type -> deactivate'
+         'check path to python': 'where python',
+         'see installed packages': 'pip list or pip freeze for requirements.txt format',
+         'delete venv': 'delete venv directory or rmdir [venv name] /s',
+         'install requirements.txt packages': 'pip install -r requirements.txt',
          }
 
 # Opens a file in 'w' (truncate then write) mode using the with context manager
