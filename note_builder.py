@@ -27,6 +27,7 @@ notes = {'list built in functions': 'dir(__builtins__)',
          'define heroku app path': 'heroku git:remote --app azraflow',
          'deploy to heroku': 'git push heroku master (mbuhidar@gmail.com)',
          'open or get info  or logs for heroku app': 'heroku open or heroku info or heroku logs',
+         'see class documentation': 'print([class instance].__doc__',
          }
 
 # Opens a file in 'w' (truncate then write) mode using the with context manager
